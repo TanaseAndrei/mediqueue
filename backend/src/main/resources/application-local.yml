@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mediqueue
+    username: mediqueue
+    password: mediqueue
+  jpa:
+    show-sql: true
+
+app:
+  jwt:
+    secret: local-dev-secret-min-32-chars-long!!
+  cors:
+    allowed-origins: http://localhost:3000
